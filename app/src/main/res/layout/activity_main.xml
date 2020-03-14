@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.xiey.anim.EatFish
+        android:id="@+id/eat_fish"
+        android:layout_width="200px"
+        android:layout_height="150px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dip" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:background="#ffffff"
+        android:onClick="start"
+        android:text="start" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:background="#ffffff"
+        android:onClick="over"
+        android:text="over" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:background="#ffffff"
+        android:onClick="dialog"
+        android:text="dialog" />
+
+
+</LinearLayout>
